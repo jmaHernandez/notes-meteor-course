@@ -1,0 +1,33 @@
+.boxed-view {
+	align-items: center;
+	background: $boxed-view-overlay-bg;
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+.boxed-view--modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: fade-out($boxed-view-overlay-bg, .3);
+}
+
+.boxed-view__box {
+	width: 24rem;
+	padding: 2.4rem;
+	text-align: center;
+	background-color: $boxed-view-bg;
+	
+	-webkit-box-shadow: 0 0 25px 5px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 0 02 5px 5px rgba(0, 0, 0, 0.25);
+	box-shadow: 0 0 25px 5px rgba(0, 0, 0, 0.25);
+}
+
+.boxed-view__form {
+	display: flex;
+	flex-direction: column;
+}

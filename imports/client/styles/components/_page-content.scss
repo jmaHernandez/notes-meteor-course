@@ -1,0 +1,21 @@
+.page-content {
+	width: $site-max-width;
+	margin: 0 auto;
+	padding: $space;
+}
+
+.filters {
+	display: block;
+	margin-bottom: $space;
+}
+
+.filters__checkbox {
+	margin-right: $space / 2;
+	margin-bottom: 0;
+	vertical-align: middle;
+}
+
+.filters__label {
+	font-style: italic;
+	vertical-align: middle;
+}
