@@ -9,7 +9,10 @@ import { routes, onAuthChange } from '../imports/routes/routes';
 import '../imports/startup/simple-schema-configuration.js';
 
 Tracker.autorun(() => {
-	onAuthChange(!!Meteor.userId());
+	const isAuthenticated = !!Meteor.userId();
+	const currentPagePrivacy = Session.get('currentPagePrivacy');
+
+	onAuthChange(isAuthenticated, currentPagePrivacy);
 });
 
 Tracker.autorun(() => {
