@@ -23,15 +23,6 @@ if (Meteor.isClient) {
 			expect(actualTitle).toBe(title);
 		});
 
-		// it('should call the function', function() {
-		// 	const spy = expect.createSpy();
-
-		// 	spy(3, 4, 123);
-		// 	spy('Andrew');			
-
-		// 	expect(spy).toHaveBeenCalledWith('Andrew');
-		// });
-
 		it('should call handleLogout on click', function() {
 			const spy = expect.createSpy();
 
