@@ -14,7 +14,7 @@ import PropTypes from 'prop-types';
 
 export const NoteList = (props) => {
 	return (
-		<div>
+		<div className="item-list">
 			<NoteListHeader />
 			{ props.notes.length === 0 ? <NoteListEmptyItem /> : undefined }
 			{ props.notes.map((note) => {

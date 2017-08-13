@@ -1,11 +1,17 @@
-$site-max-width: 50rem;
+$site-max-width: 100rem;
 
 // Colors
 $white: #ffffff;
+$blue: #397ab1;
 $purple: #5b4681;
+$dark-grey: #333333;
 $grey: #dddddd;
 $light-grey: #f9f9f9;
 $dark-grey: #777777;
+
+// Body
+$body-color: $dark-grey;
+$body-background-color: $light-grey;
 
 // Spacing
 $space: 1.4rem;
@@ -19,14 +25,16 @@ $input-border: $grey;
 // Boxed view
 $boxed-view-overlay-bg: $grey;
 $boxed-view-bg: $white;
+$boxed-view-border-color: $grey;
 
-$boxed-view-button-bg: $purple;
+$boxed-view-button-bg: $blue;
 $boxed-view-button-color: $white;
 $boxed-view-button-padding: 1rem;
 
 $button-pill-color: $purple;
 
 // header
+$header-height: 5rem;
 $header-background: $purple;
 $header-color: $white;
 
@@ -36,3 +44,8 @@ $item-border: darken($item-background, 8%);
 $item-color: #fff;
 
 $item-message-color: $dark-grey;
+
+// Page content
+$page-content-height: calc(100vh - #{$header-height});
+$page-content-sidebar-width: 30rem;
+$page-content-main-width: calc(#{$site-max-width} - #{$page-content-sidebar-width});
