@@ -10,16 +10,20 @@ $light-grey: #f9f9f9;
 $dark-grey: #777777;
 
 // Body
+$body-default-font-family: Helvetica, Arial, sans-serif;
 $body-color: $dark-grey;
 $body-background-color: $light-grey;
 
 // Spacing
 $space: 1.4rem;
+$large-space: 2.8rem;
 
 // Font sizes
 $base-font-size: 1.4rem;
+$large-font-size: 2.2rem;
 
 // Form inputs
+$input-spacing: 1rem;
 $input-border: $grey;
 
 // Boxed view
