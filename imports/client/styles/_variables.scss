@@ -43,9 +43,7 @@ $header-background: $purple;
 $header-color: $white;
 
 // item
-$item-background: $light-grey;
-$item-border: darken($item-background, 8%);
-$item-color: #fff;
+$item-border-width: 4px;
 
 $item-message-color: $dark-grey;
 

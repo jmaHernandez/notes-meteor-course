@@ -23,16 +23,16 @@
 	padding: .3rem .8rem;
 }
 
-.button--secondary {
-	border: 1px solid #dddddd;
-	background-color: #f9f9f9;
-	color: #777777;
-}
-
 .button--link-text {
 	margin: 0;
 	padding: 0;
 	background-color: transparent;
 	text-decoration: underline;
 	text-transform: none;
+}
+
+.button--danger {
+	border: 1px solid #dddddd;
+	background-color: #ce2b2b;
+	color: #fff;
 }
